@@ -1,2 +1,3 @@
-# ndvi_timeseries_forcasting
+# NDVI Timeseries Forecasting
+
 Forecasting NDVI values using ConvLSTM

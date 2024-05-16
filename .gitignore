@@ -1,0 +1,11 @@
+*.csv
+*.parquet
+*.xlsx
+*.tif
+*.hdf
+*.nc
+*npy
+
+*.ipynb_checkpoints
+*.DS_Store
+__pycache__/
