@@ -4,7 +4,8 @@
 *.tif
 *.hdf
 *.nc
-*npy
+*.npy
+*.zip
 
 *.ipynb_checkpoints
 *.DS_Store
