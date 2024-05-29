@@ -10,12 +10,12 @@ Steps:
 1. Download all input data.
 2. Resample each dataset to desired temporal & spatial resolutions.
     - Currently: 8 day & 9x9km
-4. Combine datasets based on coordinates & time (using "nearest" method).
-5. Normalize datasets.
-6. Create & compile model.
-7. Run model for train & validation sets.
-8. Repeat steps 6 & 7 with different architectures and hyperparameters to fine-tune the model (based on validation score, trendline analysis, and examination of spatial accuracy).
-9. Run predictions for test set.
+3. Combine datasets based on coordinates & time (using "nearest" method).
+4. Normalize datasets.
+5. Create & compile model.
+6. Train model.
+7. Iterate on steps 6 & 7 with different architectures and hyperparameters to fine-tune the model (based on validation score, trendline analysis, and examination of spatial accuracy).
+8. Run predictions for test set.
 
 
 ### Current results
