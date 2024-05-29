@@ -21,6 +21,13 @@ Steps:
 ### Current results
 
 Timeseries & spatial elements picked up quite well. ConvLSTM results are slightly blurred, which is a well known effect of the algorithm. Need to test a rolling prediction for a longer timeseries as well as predicting different times of year.
+Current best MSE: train: 0.0078, validation: 0.0079, test: 0.0074.
+
+##### Last Input Timestep & Predicted Timestep
+
+<img src="convlstm/last_input_timestep.png"  width="400"> <img src="convlstm/predicted_timestep.png"  width="400">
+
+##### NDVI Timeseries
 
 <img src="convlstm/output_timeseries.png"  width="800">
 
